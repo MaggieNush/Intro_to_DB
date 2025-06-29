@@ -1,2 +1,2 @@
-SELECT Books, Authors, Customers, Orders, Order_Details
+SHOW TABLES
 FROM alx_book_store
