@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS Orders(
 
 CREATE TABLE IF NOT EXISTS Order_Details(
     orderdetailid PRIMARY KEY,
-    order_id,
+    order_id INT,
     book_id,
     quantity DOUBLE,
 
