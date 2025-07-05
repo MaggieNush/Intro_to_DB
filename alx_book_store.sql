@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
-USE DATABASE alx_book_store;
+USE alx_book_store;
 
 CREATE TABLE IF NOT EXISTS Books(
     book_id PRIMARY KEY,
